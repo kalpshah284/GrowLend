@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
-import "../lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC4626.sol";
-import "../lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC4626.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 contract strategy is ERC4626  {
     IERC20 immutable asset_;
     
